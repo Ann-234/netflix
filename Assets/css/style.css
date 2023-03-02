@@ -1,0 +1,149 @@
+
+
+.card{
+  border-radius: 0 !important;
+  border: 2px solid #000;
+}
+
+body{
+  background: #000;
+  color: #fff;
+}
+
+
+/* header */
+header{
+  height: 90vh;
+  background-image:url(/Assets/img/background\ imAGE1.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity:rgba(0,0,0,0.7); 
+}
+header .text{
+  padding-top: 18rem;
+  padding-left: 8rem;
+}
+header .text .lead{
+  padding-left: .6rem;
+}
+header .text p i{
+  color: rgb(230, 203, 54);
+  padding: .5rem;
+}
+header .text p span{
+  color: rgb(230, 24, 24);
+}
+header .text h3{
+  font-size:2.5rem;
+}
+header .text  button{
+  background: rgb(236, 5, 5);
+  color: #fff;
+  border-radius: 20px;
+  padding: .5rem 2rem;
+}
+
+header .text .btn button{
+  background: #000;
+  color: #fff;
+}
+
+/* navbar */
+.navbar h3{
+  color: rgb(230, 24, 24);
+}
+.navbar .nav-item .nav-link{
+  color: #fff;
+  padding: 0 3rem;
+  font-size: 1.2rem;
+}
+.navbar .icons i{
+  padding: 1.5rem;
+  font-size: 1.2rem;
+}
+
+
+/* about */
+.about .text p{
+  font-size: 1.5rem;
+}
+.about p i{
+  padding: .9rem;
+}
+
+
+/* trending */
+
+
+.trending .col-md-2:nth-child(odd) .btn button{
+  background: red;
+  color: #fff;
+  border-radius: 20px;
+  padding:.5rem 2rem ;
+}
+
+.trending .col-md-2:nth-child(even) .btn button{
+  background: black;
+  color: #fff;
+  border-radius: 20px;
+  padding:.5rem 2rem ;
+}
+
+
+/*movies  */
+.movies .card-body .lead{
+  color:rgb(230, 203, 54) ;
+  padding-bottom: 2rem;
+} 
+
+/* services */
+.services p i{
+  padding:.9rem ;
+}
+.services .text p{
+  font-size: 1.5rem;
+}
+
+/* list */
+.list p{
+  color: rgb(230, 203, 54);
+}
+
+/* series */
+.series .card-body p{
+  color: rgb(230, 203, 54);
+}
+
+/* series2 */
+.series2 .card-body p{
+  color: rgb(230, 203, 54);
+}
+
+/* footer */
+.footer .text h4{
+  color: rgb(236, 5, 5);
+}
+.footer .foot{
+  padding-top: 2.3rem;
+}
+
+.footer .icons{
+  padding: 2rem;
+}
+.footer .icons i{
+  padding: .5rem;
+
+}
+ 
+
+
+
+
+
+
+@media only screen and (max-width:520px){
+  header .text{
+    padding-top: 15rem;
+    padding-left: 2rem;
+  }
+}
